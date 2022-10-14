@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+}
+h2::first-line {
+    background-color: antiquewhite;
+}
+p {
+    text-align: center;
+    color: darkred;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: blue;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+    background-color: yellow;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+div {
+    background-color: antiquewhite;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+div:hover {
+    background-color: chartreuse;
+}
